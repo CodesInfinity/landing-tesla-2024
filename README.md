@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Astro Starter Kit: Basics
 
 ```sh
@@ -52,3 +53,7 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+=======
+# landing-tesla-2024
+Tesla landing page clone with some modifications in desktop version
+>>>>>>> 0df7971587e83d5b6fb26e32b8e0a8a500660ea9
