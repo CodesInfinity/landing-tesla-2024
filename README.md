@@ -1,59 +1,68 @@
-<<<<<<< HEAD
-# Astro Starter Kit: Basics
+# Tesla Landing Page Clone
 
-```sh
-npm create astro@latest -- --template basics
-```
+¡Bienvenido al repositorio de la clonación de la página de aterrizaje de Tesla! Este proyecto ha sido desarrollado utilizando **Astro** y **Tailwind CSS** para ofrecer una réplica de la página de inicio de Tesla.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Descripción
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Este proyecto es una réplica de la página de aterrizaje de Tesla, realizada con las siguientes tecnologías:
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+- **Astro**: Un moderno generador de sitios estáticos que permite construir sitios web rápidos y optimizados.
+- **Tailwind CSS**: Un framework de utilidades CSS que facilita un diseño flexible y altamente personalizable.
 
-## 🚀 Project Structure
+## Características
 
-Inside of your Astro project, you'll see the following folders and files:
+- Diseño responsivo que se adapta a diferentes tamaños de pantalla.
+- Estilización moderna utilizando Tailwind CSS.
+- Estructura modular con componentes usando Astro para una mejor organización y rendimiento.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## Instalación
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Para comenzar a trabajar con el proyecto localmente, sigue estos pasos:
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+1. **Clona el repositorio**:
 
-Any static assets, like images, can be placed in the `public/` directory.
+   ```bash
+   git clone https://github.com/tu-usuario/tesla-landing-page-clone.git
+Navega al directorio del proyecto:
 
-## 🧞 Commands
+bash
+Copiar código
+cd tesla-landing-page-clone
+Instala las dependencias:
 
-All commands are run from the root of the project, from a terminal:
+bash
+Copiar código
+npm install
+Ejecuta el servidor de desarrollo:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+bash
+Copiar código
+npm run dev
+Abre tu navegador y visita http://localhost:3000 para ver la página en acción.
 
-## 👀 Want to learn more?
+Construcción y Despliegue
+Para construir el proyecto para producción, utiliza el siguiente comando:
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-=======
-# landing-tesla-2024
-Tesla landing page clone with some modifications in desktop version
->>>>>>> 0df7971587e83d5b6fb26e32b8e0a8a500660ea9
+bash
+Copiar código
+npm run build
+Esto generará los archivos estáticos optimizados en el directorio dist.
+
+Contribuciones
+¡Las contribuciones son bienvenidas! Si deseas colaborar en el proyecto, por favor sigue estos pasos:
+
+Haz un fork del repositorio.
+Crea una nueva rama (git checkout -b feature/nueva-funcionalidad).
+Realiza tus cambios y haz commits (git commit -am 'Añadir nueva funcionalidad').
+Sube tus cambios (git push origin feature/nueva-funcionalidad).
+Abre una solicitud de extracción (pull request) en GitHub.
+Créditos
+Astro: Documentación de Astro
+Tailwind CSS: Documentación de Tailwind CSS
+Licencia
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+
+Contacto
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de agusmatic21@gmail.com.
+
+¡Gracias por tu interés en el proyecto!
